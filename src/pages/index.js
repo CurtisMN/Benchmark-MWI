@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import '../components/index.css';
 import Column from '../components/column';
+import ContactForm from '../components/contactform';
 
 const IndexPage = () => (
   <Layout>
@@ -18,6 +19,7 @@ const IndexPage = () => (
         <Column />
       </div>
     </div>
+    <ContactForm />
   </Layout>
 );
 

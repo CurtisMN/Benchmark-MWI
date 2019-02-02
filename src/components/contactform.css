@@ -1,0 +1,35 @@
+.contactwrapper {
+  background-color: lightgray;
+  display: grid;
+  padding-top: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+  align-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(auto);
+  grid-template-areas:
+    '. h .'
+    '. c .';
+}
+
+.contactform {
+  grid-area: c;
+}
+
+.contactheader {
+  color: white;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+form {
+  justify-self: start;
+  color: white;
+}
+
+.submitButton {
+    padding-top: 4%;
+}
