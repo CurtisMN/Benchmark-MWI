@@ -1,27 +1,29 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import '../components/contactform.css';
 
 export const ContactForm = () => (
-  <div className='contactwrapper'>
-    <div className='contactform'>
-      <h2 className='contactheader'>CONTACT</h2>
-      <form action='/action_page.php'>
-        Email
-        <br />
-        <input type='text' name='email' />
-        <br />
-        Subject
-        <br />
-        <input type='text' name='subject' />
-        <br />
-        Message
-        <br />
-        <textarea type='textarea' rows='8' />
-        <button>Submit</button>
-      </form>
+  <Fragment>
+    <div className='contactwrapper'>
+    <h2 className='contactheader'>CONTACT</h2>
+      <div className='contactform'>
+        <form action='/action_page.php'>
+          Email
+          <br />
+          <input type='text' name='email' />
+          <br />
+          Subject
+          <br />
+          <input type='text' name='subject' />
+          <br />
+          Message
+          <br />
+          <textarea type='textarea' rows='8' />
+          <button>Submit</button>
+        </form>
+      </div>
     </div>
-  </div>
+  </Fragment>
 );
 
 export default ContactForm;

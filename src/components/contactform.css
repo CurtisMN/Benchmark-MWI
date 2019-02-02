@@ -1,23 +1,13 @@
-.contactwrapper {
-  background-color: lightgray;
-  display: grid;
-  padding-top: 2%;
-  padding-right: 5%;
-  padding-left: 5%;
-  align-content: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(auto);
-  grid-template-areas:
-    '. h .'
-    '. c .';
-}
-
 .contactform {
   grid-area: c;
 }
 
 .contactheader {
   color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  justify-self: center;
+  grid-area: h;
 }
 
 input,
@@ -30,6 +20,31 @@ form {
   color: white;
 }
 
-.submitButton {
-    padding-top: 4%;
+.contactwrapper {
+  background-color: lightgray;
+  display: grid;
+  padding-top: 2%;
+  padding-right: 5%;
+  padding-left: 5%;
+  align-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto);
+  grid-template-areas:
+    'h'
+    'c';
+}
+
+@media (min-width: 1080px) {
+  .contactwrapper {
+    background-color: lightgray;
+    display: grid;
+    padding-right: 5%;
+    padding-left: 5%;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto);
+    grid-template-areas:
+      '. h .'
+      '. c .';
+  }
 }
