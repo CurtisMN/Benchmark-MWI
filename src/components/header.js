@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header
     style={{
       borderBottom: `3px solid black`
