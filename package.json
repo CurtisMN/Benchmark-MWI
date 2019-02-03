@@ -13,6 +13,8 @@
     "gatsby-plugin-sharp": "^2.0.19",
     "gatsby-source-filesystem": "^2.0.19",
     "gatsby-transformer-sharp": "^2.1.13",
+    "php": "0.0.1",
+    "php-loader": "^0.2.0",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

@@ -4,6 +4,7 @@ import Layout from '../components/layout';
 import '../components/index.css';
 import Column from '../components/column';
 import ContactForm from '../components/contactform';
+import JsTest from '../components/jstest';
 
 const IndexPage = () => (
   <Layout>
@@ -20,6 +21,7 @@ const IndexPage = () => (
       </div>
     </div>
     <ContactForm />
+    <JsTest />
   </Layout>
 );
 
