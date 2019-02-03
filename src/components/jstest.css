@@ -1,6 +1,19 @@
+.hidden {
+  display: none;
+}
+
+.shown {
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
 .statement {
   padding-left: 5%;
-  padding-bottom: 12%;
+  padding-bottom: 3%;
+}
+
+ul {
+  margin: 0;
 }
 
 a {
