@@ -20,7 +20,7 @@ const Header = () => (
           margin:`auto`,
           marginLeft: `auto`,
           marginRight: `auto`,
-          height: `70px`,
+          maxHeight: '70px',
         }}
       />
     </div>

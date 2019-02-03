@@ -10,12 +10,27 @@
   grid-area: h;
 }
 
+.email,
+.subject,
+.textarea {
+  margin-top: 3px;
+  margin-bottom: 5px;
+  padding: 1%;
+}
+
+.submit {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 input {
-    width: 100%;
+  width: 100%;
+  border-style: none;
 }
 
 textarea {
   width: 100%;
+  padding-bottom: 5%;
 }
 
 form {

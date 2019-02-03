@@ -9,18 +9,18 @@ export const ContactForm = () => (
       <h2 className='contactheader'>CONTACT</h2>
       <div className='contactform'>
         <form action='' method='POST'>
-          Email
+          <label>Email</label>
           <br />
-          <input type='email' name='email' pattern='*@*.' required />
+          <input type='email' className='email' name='email' pattern='*@*.' required />
           <br />
-          Subject
+          <label>Subject</label>
           <br />
-          <input type='text' name='subject' required />
+          <input type='text' className='subject' name='subject' required />
           <br />
-          Message
+          <label>Message</label>
           <br />
-          <textarea type='textarea' rows='8' required />
-          <button>Submit</button>
+          <textarea type='textarea' className='textarea' rows='8' required />
+          <button className='submit'>Submit</button>
         </form>
       </div>
     </div>

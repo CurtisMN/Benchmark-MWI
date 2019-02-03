@@ -35,7 +35,7 @@ class JsTest extends Component {
   render() {
     return (
       <Fragment>
-        <h1>HEADING ONE</h1>
+        <h1 className='jsTestHeading'>HEADING ONE</h1>
         <div className='statement'>
           Remove the duplicates in 2 Javascript objects and output the list of distinct names in an
           unordered list when this{' '}
