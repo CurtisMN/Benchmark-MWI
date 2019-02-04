@@ -26,6 +26,7 @@ class JsTest extends Component {
       hide: true,
     };
   }
+
   showList(event) {
     this.setState({
       hide: false,
