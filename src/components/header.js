@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => (
   <header
     style={{
-      borderBottom: `3px solid black`
+      borderBottom: `3px solid black`,
     }}
   >
     <div
@@ -17,10 +17,12 @@ const Header = () => (
         alt='headerimage'
         style={{
           display: `block`,
-          margin:`auto`,
+          margin: `auto`,
           marginLeft: `auto`,
           marginRight: `auto`,
           maxHeight: '70px',
+          paddingLeft: '10px',
+          paddingRight: '10px',
         }}
       />
     </div>
