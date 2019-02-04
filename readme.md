@@ -32,3 +32,6 @@ JS Test
 =======
 
 The code for the JS test can be found in [src/components/jstest.js](https://github.com/CurtisMN/Benchmark-MWI/blob/master/src/components/jstest.js)
+
+### PS
+Since I made this all on GitLab and was planning on just pushing it to GitHub in a single commit, I was waiting until that commit to do  curtis_nollner-02-2019 as per the instructions, but it seems GitHub kept all the information from the commits made to GitLab, so I'm sorry about that inconvenience. 
